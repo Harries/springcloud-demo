@@ -8,7 +8,7 @@ Spring Cloud  tutorial about hystrix,eureka,config,admin,skywalking
 
 ## Module
 <table>
-<th align="left">Serial number</th> <th align="left">Module name</th><th align="left" width="200px">Module description </th><th align="left">docs</th><th align="left"> status</th>
+<th align="left">Serial number</th> <th align="left">Module name</th><th align="left" width="250px">Module description </th><th align="left">docs</th><th align="left"> status</th>
 <tr><td>1</td><td>	hystrix</td><td>	Spring Cloud hystrix</td><td>	CN / EN</td><td>	todo</td></tr>
 <tr><td>2</td><td>	eureka</td><td>	Spring Cloud eureka	</td><td>CN / EN</td><td>	todo</td></tr>
 <tr><td>3</td><td>	config	</td><td>Spring Cloud config</td><td>	CN / EN	</td><td>todo</td></tr>
