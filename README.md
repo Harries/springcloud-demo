@@ -7,39 +7,39 @@ Spring Cloud  tutorial about hystrix,eureka,config,admin,skywalking
  - Simple Use
 
 ## Module
+<table>
+<th align="left">Serial number</th> <th align="left">Module name</th><th align="left">Module description </th><th align="left">docs</th><th align="left"> status</th>
+<tr><td>1</td><td>	hystrix</td><td>	Spring Cloud hystrix</td><td>	CN / EN</td><td>	todo</td></tr>
+<tr><td>2</td><td>	eureka</td><td>	Spring Cloud eureka	</td><td>CN / EN</td><td>	todo</td></tr>
+<tr><td>3</td><td>	config	</td><td>Spring Cloud config</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>4</td><td>	Azure</td><td>	Spring Cloud Azure	</td><td>CN / EN</td><td>	todo</td></tr>
+<tr><td>5</td><td>	Alibaba	</td><td>Spring Cloud Alibaba	</td><td>CN / EN</td><td>	todo</td></tr>
+<tr><td>6</td><td>	Amazon Web Services </td><td>Spring Cloud Amazon Web Services</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>7</td><td>	Bus	</td><td>Spring Cloud Bus</td><td>	CN / EN</td><td>	todo
+<tr><td>8</td><td>	Circuit Breaker</td><td>	Spring Cloud Circuit Breaker</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>9</td><td>	CLI</td><td>	SpringCloud CLI</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>10</td><td>	Cloud Foundry Service Broker</td><td>	Spring Cloud Cloud Foundry Service Broker</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>11</td><td>	Commons</td><td>	Spring Cloud Commons</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>12</td><td>	Consul</td><td>	Spring Cloud Consul	</td><td>CN / EN	</td><td>todo</td></tr>
+<tr><td>13</td><td>	Contract</td><td>	Spring Cloud Contract</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>14</td><td>	Function</td><td>	Spring Cloud Function</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>15</td><td>	Gateway</td><td>	Spring Cloud Gateway	</td><td>CN / EN	</td><td>todo</td></tr>
+<tr><td>16</td><td>	GCP</td><td>	Spring Cloud GCP	</td><td>CN / EN</td><td>	todo</td></tr>
+<tr><td>17</td><td>	Kubernetes</td><td>	Spring Cloud Kubernetes	</td><td>CN / EN	</td><td>todo</td></tr>
+<tr><td>18</td><td>	Netflix</td><td>	Spring Cloud Netflix	</td><td>CN / EN	</td><td>todo</td></tr>
+<tr><td>19</td><td>	Open Service Broker</td><td>	Spring Cloud Open Service Broker	</td><td>CN / EN	</td><td>todo</td></tr>
+<tr><td>20</td><td>	OpenFeign</td><td>	Spring Cloud OpenFeign</td><td>	CN / EN</td><td>	todo</td></tr>
+<tr><td>21</td><td>	Security</td><td>	Spring Cloud Security	</td><td>CN / EN	</td><td>todo</td></tr>
+<tr><td>22</td><td>	Skipper</td><td>	Spring Cloud Skipper</td><td>	CN / EN</td><td>	todo</td></tr>
+<tr><td>23</td><td>	Sleuth</td><td>	Spring Cloud Sleuth</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>24</td><td>	Stream</td><td>	Spring Cloud Stream	</td><td>CN / EN	</td><td>todo</td></tr>
+<tr><td>25</td><td>	Stream Applications</td><td> 	Spring Cloud Stream Applications</td><td>	CN / EN</td><td>	todo</td></tr>
+<tr><td>26</td><td>	Task</td><td>	Spring Cloud Task	</td><td>CN / EN</td><td>	todo</td></tr>
+<tr><td>27</td><td>	Vault</td><td>	Spring Cloud Vault</td><td>	CN / EN	</td><td>todo</td></tr>
+<tr><td>28</td><td>	Zookeeper</td><td>	Spring Cloud Zookeeper</td><td>	CN / EN</td><td>	todo</td></tr>
+<tr><td>29</td><td>	App Broker</td><td>	Spring Cloud App Broker</td><td>	CN / EN</td><td>	todo</td></tr>
 
-| <div style="text-align: left;width:100px;">Serial number </div> | <div style="text-align: left;width:200px;">Module name</div> | <div style="text-align: left;width:200px;">Module description </div> | <div style="text-align: left;width:100px;">docs</div>                  | status|
-|:----------------------------------------------------|:-------------------------------------------------------------|:---------------------------------------------------------------------|:----------------------|:------|
-| 1                                                   | hystrix                                                      | Spring Cloud hystrix                                                 | [CN](###) / [EN](###) | 	todo |
-| 2                                                   | eureka                                                       | Spring Cloud eureka                                                  | [CN](###) / [EN](###) | 	todo |
-| 3                                                   | config                                                       | Spring Cloud config                                                  | [CN](###) / [EN](###) | 	todo |
-| 4                                                   | Azure                                                        | Spring Cloud Azure                                                   | [CN](###) / [EN](###) | 	todo |
-| 5                                                   | Alibaba                                                      | Spring Cloud Alibaba                                                 | [CN](###) / [EN](###) | 	todo |
-| 6                                                   | Amazon Web Services                                          | Spring Cloud Amazon Web Services                                     | [CN](###) / [EN](###) | 	todo |
-| 7                                                   | Bus                                                          | Spring Cloud Bus                                                     | [CN](###) / [EN](###) | 	todo |
-| 8                                                   | Circuit Breaker                                              | Spring Cloud Circuit Breaker                                         | [CN](###) / [EN](###) | 	todo |
-| 9                                                   | CLI                                                          | Spring Cloud CLI                                                     | [CN](###) / [EN](###) | 	todo |
-| 10                                                  | Cloud Foundry Service Broker                                 | Spring Cloud Cloud Foundry Service Broker                            | [CN](###) / [EN](###) | 	todo |
-| 11                                                  | Commons                                                      | Spring Cloud Commons                                                 | [CN](###) / [EN](###) | 	todo |
-| 12                                                  | Consul                                                       | Spring Cloud Consul                                                  | [CN](###) / [EN](###) | 	todo |
-| 13                                                  | Contract                                                     | Spring Cloud Contract                                                | [CN](###) / [EN](###) | 	todo |
-| 14                                                  | Function                                                     | Spring Cloud Function                                                | [CN](###) / [EN](###) | 	todo |
-| 15                                                  | Gateway                                                      | Spring Cloud Gateway                                                 | [CN](###) / [EN](###) | 	todo |
-| 16                                                  | GCP                                                          | Spring Cloud GCP                                                     | [CN](###) / [EN](###) | 	todo |
-| 17                                                  | Kubernetes                                                   | Spring Cloud Kubernetes                                              | [CN](###) / [EN](###) | 	todo |
-| 18                                                  | Netflix                                                      | Spring Cloud Netflix                                                 | [CN](###) / [EN](###) | 	todo |
-| 19                                                  | Open Service Broker                                          | Spring Cloud Open Service Broker                                     | [CN](###) / [EN](###) | 	todo |
-| 20                                                  | OpenFeign                                                    | Spring Cloud OpenFeign                                               | [CN](###) / [EN](###) | 	todo |
-| 21                                                  | Security                                                     | Spring Cloud Security                                                | [CN](###) / [EN](###) | 	todo |
-| 22                                                  | Skipper                                                      | Spring Cloud Skipper                                                 | [CN](###) / [EN](###) | 	todo |
-| 23                                                  | Sleuth                                                       | Spring Cloud Sleuth                                                  | [CN](###) / [EN](###) | 	todo |
-| 24                                                  | Stream                                                       | Spring Cloud Stream                                                  | [CN](###) / [EN](###) | 	todo |
-| 25                                                  | Stream Applications                                          | Spring Cloud Stream Applications                                     | [CN](###) / [EN](###) | 	todo |
-| 26                                                  | Task                                                         | Spring Cloud Task                                                    | [CN](###) / [EN](###) | 	todo |
-| 27                                                  | Vault                                                        | Spring Cloud Vault                                                   | [CN](###) / [EN](###) | 	todo |
-| 28                                                  | Zookeeper                                                    | Spring Cloud Zookeeper                                               | [CN](###) / [EN](###) | 	todo |
-| 29                                                  | App Broker                                                   | Spring Cloud App Broker                                              | [CN](###) / [EN](###) | 	todo |
-
+</table>
 
 ### License
 
