@@ -1,0 +1,16 @@
+server:
+  port: 8762
+
+eureka:
+  instance:
+    hostname: node2 # eureka name
+    prefer-ip-address: false
+  client:
+    fetch-registry: false
+    register-with-eureka: true
+    # eureka url
+    service-url:
+      defaultZone: http://node1:8761/eureka
+spring:
+  application:
+    name: "eureka-server-ha"
