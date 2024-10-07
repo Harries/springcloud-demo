@@ -1,28 +1,21 @@
 server:
   port: 8081
-#配置可监控信息
 management:
-  #对外开放某个监控点
   endpoint:
-    #health必须开
     health:
       show-details: always
       enabled: true
-    #其他
     beans:
       enabled: true
   endpoints:
-    #对web开启的监控点
     web:
       exposure:
         include: "*"
-    #对外开放所有监控点
     enabled-by-default: true
 spring:
   application:
     name: admin-server
-    ## spring boot admin 登录
   security:
     user:
-      name: admin #管理界面登录账户
-      password: admin #管理界面登录密码
+      name: admin
+      password: admin
