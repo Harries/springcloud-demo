@@ -1,0 +1,25 @@
+server:
+  port: 8082
+management:
+  endpoint:
+    health:
+      show-details: always
+      enabled: true
+    beans:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    enabled-by-default: true
+spring:
+  application:
+    name: admin-client
+    ## spring boot admin
+  boot:
+    admin:
+      client:
+        #server
+        url: http://127.0.0.1:8081/
+        username: admin
+        password: admin
