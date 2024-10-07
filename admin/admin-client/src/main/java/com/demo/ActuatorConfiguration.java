@@ -12,7 +12,7 @@ public class ActuatorConfiguration {
    @Bean
    public HttpExchangeRepository httpTraceRepository() {
        InMemoryHttpExchangeRepository repository = new InMemoryHttpExchangeRepository();
-       // 默认保存1000条http请求记录
+       // save 1000 http record
        repository.setCapacity(1000);
        return repository;
    }

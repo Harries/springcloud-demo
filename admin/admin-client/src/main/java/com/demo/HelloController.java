@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 public class HelloController {
 
     @GetMapping("/hello")
-	@ResponseBody
     public String findAll(){
         return "hello world";
     }

@@ -23,3 +23,6 @@ spring:
         url: http://127.0.0.1:8081/
         username: admin
         password: admin
+        #instance:
+        #  prefer-ip: true
+        #  service-url: ${your spring boot client url}

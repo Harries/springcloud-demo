@@ -5,10 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
-/**
- * @author Yang douya
- * @date 2023/6/19 15:40
- */
+
 @Configuration
 public class BootAdminMonitorSecurityConfig {
 
