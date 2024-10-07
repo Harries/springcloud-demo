@@ -3,6 +3,7 @@ package com.et.eureka.consumer.controller;
 import com.et.eureka.consumer.model.Student;
 import com.et.eureka.consumer.service.MyFeignClient;
 import com.netflix.appinfo.InstanceInfo;
+import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -13,7 +14,6 @@ import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-import javax.annotation.Resource;
 import java.util.Collection;
 import java.util.List;
 
