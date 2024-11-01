@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>config-server</module>
+        <module>config-client</module>
     </modules>
     <artifactId>spring-cloud-config</artifactId>
 
