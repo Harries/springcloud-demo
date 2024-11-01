@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Spring-Cloud-Function</artifactId>
+    <artifactId>spring-cloud-function</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

@@ -16,7 +16,8 @@
     <modules>
         <module>eureka</module>
         <module>admin</module>
-        <module>Spring-Cloud-Function</module>
+        <module>spring-cloud-function</module>
+        <module>spring-cloud-config</module>
     </modules>
     <properties>
         <spring-cloud.version>2023.0.3</spring-cloud.version>
