@@ -1,0 +1,16 @@
+
+server:
+  port: 8888
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        #        git:
+        #          uri: https://github.com/chinoukin/SpringcloudConfig
+        # native为本地配置
+        native:
+          search-locations: classpath:/config-repo/crm,classpath:/config-repo/client
+        bootstrap: true

@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888/
+      #name: crm,config-client
+      name: config-client
+      profile: dev
+
+
