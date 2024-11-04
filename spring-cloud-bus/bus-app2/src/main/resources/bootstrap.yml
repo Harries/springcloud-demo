@@ -1,0 +1,21 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888/
+      #name: crm,config-client
+      name: config-client
+      profile: dev
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: my_vhost
+    username: admin
+    password: admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
