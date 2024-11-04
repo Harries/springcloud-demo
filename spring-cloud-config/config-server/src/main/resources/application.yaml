@@ -10,7 +10,19 @@ spring:
       server:
         #        git:
         #          uri: https://github.com/chinoukin/SpringcloudConfig
-        # native为本地配置
         native:
           search-locations: classpath:/config-repo/crm,classpath:/config-repo/client
         bootstrap: true
+  application:
+    name: bus-app2
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: my_vhost
+    username: admin
+    password: admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
