@@ -15,7 +15,6 @@ public class DemoController {
     private boolean simulateFailure = true;
 
     public DemoController(CircuitBreakerRegistry circuitBreakerRegistry) {
-        // 获取断路器实例
         this.circuitBreaker = circuitBreakerRegistry.circuitBreaker("myCircuitBreaker");
     }
     @GetMapping("/my-service")

@@ -30,7 +30,6 @@ public class MyController {
         return "Service is up";
     }
 
-    // 回退方法
     public String fallbackMethod(Throwable throwable) {
         if (throwable instanceof CallNotPermittedException) {
             return "Circuit Breaker is OPEN, request not permitted";
