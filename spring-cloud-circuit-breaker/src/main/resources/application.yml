@@ -5,3 +5,14 @@ resilience4j.circuitbreaker:
       failureRateThreshold: 50
       waitDurationInOpenState: 30s
       permittedNumberOfCallsInHalfOpenState: 3
+
+
+    order-service:
+      sliding-window-type: COUNT_BASED
+      failure-rate-threshold: 10
+      minimum-number-of-calls: 5
+      automatic-transition-from-open-to-half-open-enabled: true
+      wait-duration-in-open-state: 5s
+      permitted-number-of-calls-in-half-open-state: 3
+      sliding-window-size: 10
+      register-health-indicator: true
