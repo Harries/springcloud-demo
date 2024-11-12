@@ -13,7 +13,7 @@ public class OrderController {
 
     @GetMapping("/createOrder")
     public String createOrder() {
-        // 调用 Payment Service
+        // invoke Payment Service
         String paymentResponse = restTemplate.getForObject("http://payment-service/pay", String.class);
         return "Order created and " + paymentResponse;
     }
