@@ -1,4 +1,4 @@
-package com.et.controller;
+package com.et.consumer;
 
 import io.github.resilience4j.circuitbreaker.CallNotPermittedException;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.et.controller;
+package com.et.consumer;
 
 import org.springframework.cloud.function.context.FunctionCatalog;
 import org.springframework.web.bind.annotation.*;
