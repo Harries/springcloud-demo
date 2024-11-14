@@ -1,0 +1,2 @@
+C:\Users\Dell\.jdks\jbr-17.0.9\bin\java.exe -jar target/eureka-server-1.0-SNAPSHOT.jar --spring.profiles.active=node1
+C:\Users\Dell\.jdks\jbr-17.0.9\bin\java.exe -jar target/eureka-server-1.0-SNAPSHOT.jar --spring.profiles.active=node2

@@ -1,0 +1,11 @@
+server:
+  port: 0 #random port
+
+spring:
+  application:
+    name: order-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
