@@ -1,0 +1,17 @@
+logging:
+  level:
+    org.springframework.cloud.vault: DEBUG
+
+spring:
+  application:
+    name: vault-demo
+  config:
+    import: vault://
+  cloud:
+    vault:
+      uri: http://localhost:8200
+      token: hvs.9rUli4rwArRrAUYkVp0NVUlu
+      kv:
+        enabled: true
+        backend: secret
+        default-context: application
