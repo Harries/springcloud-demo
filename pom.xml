@@ -24,6 +24,7 @@
         <module>spring-cloud-contract</module>
         <module>spring-cloud-gateway</module>
         <module>spring-cloud-vault</module>
+        <module>spring-cloud-stream-kafaka</module>
     </modules>
     <properties>
         <spring-cloud.version>2023.0.3</spring-cloud.version>
