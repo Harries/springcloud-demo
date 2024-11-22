@@ -27,6 +27,7 @@
         <module>spring-cloud-stream-kafaka</module>
         <module>spring-cloud-data-flow</module>
         <module>LeaderElection</module>
+        <module>spring-loud-task</module>
     </modules>
     <properties>
         <spring-cloud.version>2023.0.3</spring-cloud.version>
