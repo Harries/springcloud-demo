@@ -10,7 +10,10 @@ services:
       MYSQL_ROOT_PASSWORD: rootpw
     expose:
       - 3306
-
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./my.cnf:/etc/mysql/my.cnf
   kafka-broker:
     image: confluentinc/cp-kafka:5.3.1
     container_name: dataflow-kafka
