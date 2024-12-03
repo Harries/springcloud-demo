@@ -1,0 +1,16 @@
+
+
+spring.application.name: demo-tracing
+
+server:
+  port: 8088
+  servlet:
+    context-path: /app
+logging.pattern.level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
+management:
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+  tracing:
+    sampling:
+      probability: 1.0
