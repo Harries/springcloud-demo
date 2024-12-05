@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: service-b
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+server:
+  port: 8081
