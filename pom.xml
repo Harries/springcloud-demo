@@ -30,6 +30,7 @@
         <module>spring-loud-task</module>
         <module>spring-cloud-sleuth</module>
         <module>spring-cloud-zookeeper</module>
+        <module>spring-cloud-openfeign</module>
     </modules>
     <properties>
         <spring-cloud.version>2023.0.3</spring-cloud.version>

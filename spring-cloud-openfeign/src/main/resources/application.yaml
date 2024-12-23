@@ -1,0 +1,11 @@
+
+server:
+  port: 8088
+feign:
+  client:
+    config:
+      default:
+        username: xxxx
+        password: password
+        requestInterceptors:
+          com.et.interceptor.JSONPlaceHolderInterceptor
