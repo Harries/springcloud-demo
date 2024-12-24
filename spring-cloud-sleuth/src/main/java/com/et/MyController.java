@@ -1,4 +1,4 @@
-package com.et.controller;
+package com.et;
 
 import io.micrometer.tracing.SpanName;
 import io.micrometer.tracing.annotation.NewSpan;

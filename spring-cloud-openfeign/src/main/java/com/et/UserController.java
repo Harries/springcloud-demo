@@ -1,4 +1,4 @@
-package com.et.controller;
+package com.et;
 
 import com.et.model.User;
 import com.et.service.UserService;
