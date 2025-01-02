@@ -36,7 +36,6 @@ public class AuthController {
 
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody RegisterRequest registerRequest) {
-        // 实现注册逻辑，例如保存用户到数据库
         return ResponseEntity.ok("User registered successfully");
     }
     @PostMapping("/api")

@@ -13,12 +13,12 @@ public class JwtAuthenticationToken extends AbstractAuthenticationToken {
     public JwtAuthenticationToken(UserDetails principal, Collection<? extends GrantedAuthority> authorities) {
         super(authorities);
         this.principal = principal;
-        setAuthenticated(true); // 设置认证成功
+        setAuthenticated(true);
     }
 
     @Override
     public Object getCredentials() {
-        return null; // JWT 不需要密码
+        return null;
     }
 
     @Override
