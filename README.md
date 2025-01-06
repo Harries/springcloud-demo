@@ -28,7 +28,7 @@ Through this project, the team aims to enhance the quality of Spring Cloud modul
 | 4             | Azure                        | Spring Cloud Azure                        | [CN](#) / [EN](#)         | todo   |
 | 5             | Alibaba                      | Spring Cloud Alibaba                      | [CN](#) / [EN](#)         | todo   |
 | 6             | Amazon Web Services          | Spring Cloud Amazon Web Services          | [CN](#) / [EN](#)         | todo   |
-| 7             | Bus                          | Spring Cloud Bus                          | [CN](https://www.liuhaihua.cn/archives/711639.html) / [EN](https://blog.devops.dev/spring-cloud-bus-quick-start-demo-75f09dfd294e)         | todo   |
+| 7             | Bus                          | Spring Cloud Bus                          | [CN](https://www.liuhaihua.cn/archives/711639.html) / [EN](https://blog.devops.dev/spring-cloud-bus-quick-start-demo-75f09dfd294e)         | done   |
 | 8             | Circuit Breaker              | Spring Cloud Circuit Breaker              | [CN](https://www.liuhaihua.cn/archives/711651.html) / [EN](https://blog.devgenius.io/spring-cloud-circuit-breaker-quick-start-demo-8b452a438dfc)         | done   |
 | 9             | CLI                          | SpringCloud CLI                           | [CN](#) / [EN](#)         | todo   |
 | 10            | Cloud Foundry Service Broker | Spring Cloud Cloud Foundry Service Broker | [CN](#) / [EN](#)         | todo   |
