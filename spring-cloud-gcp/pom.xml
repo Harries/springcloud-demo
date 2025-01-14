@@ -14,6 +14,7 @@
     <modules>
         <module>spring-cloud-gcp-alloydb-sample</module>
         <module>spring-cloud-gcp-bigquery-sample</module>
+        <module>spring-cloud-gcp-data-datastore-basic-sample</module>
     </modules>
 
     <properties>
